@@ -1,0 +1,15 @@
+﻿@model UserManagementSystem.ViewModels.RegisterViewModel
+
+<div>
+	<center>
+		<form method="POST" asp-controller="User"  asp-action="Register">
+			Email:<input type="text" name="Email"" id="Email" /><br>
+			Password:<input type="Password" name="Password" id="Password" /><br>
+			PasswordConfirmed:<input type="Password" name="PasswordConfirmed" id="PasswordConfirmed" /><br>
+			PhoneNumber:<input type="text" name="PhoneNumber" " id="PhoneNumber " /><br>
+			<input type="submit" value="Login" />
+
+
+		</form>
+	</center>
+</div>
